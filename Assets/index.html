@@ -1,11 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Gatos Esquizo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-    
-</body>
-</html>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="img/gato Ezquizo.jpg" alt="Gatos Esquizo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav navbar">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="#productos">Feature</a>
+                <a class="nav-item nav-link" href="#comida">Pricing</a>
+                <a class="nav-item nav-link" href="#entretencion">Disabled</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="mt-5 pt-5">
+    <div class="container mt-4">
+        <!-- Primera fila -->
+        <div class="row g-4">
+            <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card h-100">
+                        <img src="img/gato1.jpg" class="card-img-top" alt="Cupon 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gato de dos patas</h5>
+                            <p class="card-text text-muted">El mejor gato de la historia</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item precio">
+                                <s class="text-muted">$45.990</s>
+                                <span class="text-success fw-bold ms-2">$45.989</span>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card h-100">
+                        <img src="img/gato2.jpg" class="card-img-top" alt="Cupon 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Gato de la sonrrisa</h5>
+                            <p class="card-text text-muted">Gato de la sonrrisa mas hermosa de la historia</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item precio">
+                                <s class="text-muted">$30.990</s>
+                                <span class="text-success fw-bold ms-2">$12.990</span>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card h-100">
+                        <img src="img/gato3.jpg" class="card-img-top" alt="Cupon 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Gato de la lengua afuera</h5>
+                            <p class="card-text text-muted">Se llama guancho, solo es un gato</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item precio">
+                                <s class="text-muted">$300.000</s>
+                                <span class="text-success fw-bold ms-2">$25.990</span>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+<section class="container-fluid formulario-color text-white py-2 my-5 px-5">
+    <p class="text-center informacion-cupones pt-4">Recibe ofertas de los mininos en tu correo</p>
+    <form class="formulario-color d-flex flex-column align-items-center mb-5">
+        <div class="form-group w-50 mb-3">
+            <label for="nombre" class="d-none"></label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="form-group w-50 mb-3">
+            <label for="correo" class="d-none"></label>
+            <input type="email" class="form-control" id="correo" placeholder="Correo Electrónico">
+        </div>
+        <div class="w-50 d-flex justify-content-center">
+            <button type="submit" class="btn btn-light">Enviar</button>
+        </div>
+    </form>
+</section>
+
+<footer class="logo-black-footer pb-4 text-center">
+    <img class="logo-black" src="img/gato Ezquizo.jpg" alt="Logo Cuppon">
+    <p class="texto-footer">© 2025 Gatos Esquizo. Todos los derechos reservados.</p>
+</footer>
